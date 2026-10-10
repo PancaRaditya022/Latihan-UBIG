@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World!</title>
+</head>
+<body>
+    <form>
+        <!-- Input Text & Password -->
+        <label for="nama_depan">Nama depan :</label>
+        <input type="text" id="nama_depan" name="nama_depan"><br>
+
+        <label for="nama_belakang">Nama belakang :</label>
+        <input type="text" id="nama_belakang" name="nama_belakang"><br>
+
+        <label for="password">Password :</label>
+        <input type="password" id="password" name="password"><br><br>
+
+        <!-- Radio Button -->
+        <p>WNI:Radio button</p>
+        <input type="radio" id="wni_ya" name="wni" value="ya">
+        <label for="wni_ya">ya</label><br>
+        <input type="radio" id="wni_tidak" name="wni" value="tidak">
+        <label for="wni_tidak">tidak</label><br><br>
+
+        <!-- Checkbox -->
+        <p>Musik favorit: (Checkbox)</p>
+        <input type="checkbox" id="dangdut" name="musik[]" value="dangdut">
+        <label for="dangdut">dangdut</label><br>
+        <input type="checkbox" id="jazz" name="musik[]" value="jazz">
+        <label for="jazz">Jazz</label><br><br>
+
+        <!-- Dropdown List -->
+        <p>Dropdown List</p>
+        <select name="pekerjaan" id="pekerjaan">
+            <option value="Mahasiswa">Mahasiswa</option>
+            <option value="Pelajar">Pelajar</option>
+            <option value="Pekerja">Pekerja</option>
+        </select><br><br>
+
+        <!-- Upload File -->
+        <p>upload file</p>
+        <input type="file" name="file_upload" id="file_upload"><br><br>
+
+        <!-- Tombol Submit -->
+        <input type="submit" value="submit">
+    </form>
+
+</body>
+</html>
