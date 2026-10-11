@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: aqua;
+    border: 2px solid #0077aa;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.box {
+    width: 150px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-weight: bold;
+    background-color: coral;
+    border: 2px solid #aa3300;
+}
+
+.float-left {
+    float: left;
+    margin: 0 15px 10px 0;
+}
+
+.float-right {
+    float: right;
+    margin: 0 0 10px 15px;
+}
+
+.kolom {
+    width: 45%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+}
+
+.kolom-kiri {
+    float: left;
+    background-color: coral;
+}
+
+.kolom-kanan {
+    float: left;
+    margin-left: 5%;
+    background-color: lightgreen;
+}
+
+/* Clearfix: agar container membungkus elemen float di dalamnya */
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.clear {
+    clear: both;
+    background-color: #eee;
+    padding: 10px;
+}

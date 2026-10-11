@@ -1,0 +1,12 @@
+p {
+    background-color: aqua;
+}
+
+.posisi-fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 250px;
+    padding: 10px;
+    background-color: coral;
+}

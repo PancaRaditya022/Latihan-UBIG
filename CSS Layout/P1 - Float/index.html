@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float Layout</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <h1>Float Layout</h1>
+
+    <div class="container">
+        <div class="box float-left">Float Left</div>
+        <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard dummy text ever since 1966,
+            when designers at Letraset and James Mosley, the librarian at St Bride
+            Printing Library in London, took a 1914 Cicero translation and scrambled it
+            to make dummy text for Letraset's Body Type sheets.
+            Teks ini mengalir mengisi ruang di sebelah kanan elemen yang di-float ke kiri.
+        </p>
+    </div>
+
+    <div class="container">
+        <div class="box float-right">Float Right</div>
+        <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard dummy text ever since 1966,
+            when designers at Letraset and James Mosley took a 1914 Cicero translation
+            and scrambled it to make dummy text for Letraset's Body Type sheets.
+            Teks ini mengalir mengisi ruang di sebelah kiri elemen yang di-float ke kanan.
+        </p>
+    </div>
+
+    <div class="container clearfix">
+        <div class="kolom kolom-kiri">Kolom Kiri (float: left)</div>
+        <div class="kolom kolom-kanan">Kolom Kanan (float: left)</div>
+    </div>
+    <p class="clear">Paragraf ini memakai <code>clear: both</code>, jadi selalu tampil di bawah kedua kolom di atasnya.</p>
+</body>
+</html>
