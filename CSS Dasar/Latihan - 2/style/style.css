@@ -1,0 +1,34 @@
+body {
+  background-color: azure;
+}
+
+h1 {
+  background-color: #ffd6ee;
+  padding: 10px;
+  text-align: center;
+}
+
+h2 {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.penulis-bg {
+  background-color: #e2d9d5;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.penulis {
+  color: #a81c3f;
+}
+
+.tanggal {
+  color: #a81c3f;
+}
+
+.highlight {
+  color: #0000ff;
+  font-weight: bold;
+}

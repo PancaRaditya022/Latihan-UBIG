@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.header {
+    color:aqua;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.p {
+    color: whitesmoke;
+    margin-left: 20px;
+}
+
+.span {
+    color: red;
+    background-color: pink;
+}
+
+.span2 {
+    color: blue;
+    /* background-color: aqua; */
+}

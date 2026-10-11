@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    background-color: tomato;
+    color: bisque;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.konten {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.konten-credit {
+    font-size: 0.8rem;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.penulis {
+    color: crimson;
+}
+
+.tanggal {
+    color: darkorange;
+}
+
+.konten p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.konten p span {
+    color: blue;
+}
+
+.daftar-berita {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: antiquewhite;
+    padding: 15px;
+}
+
+.card h3 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.card .credit {
+    font-size: 0.8rem;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.card a {
+    font-size: 0.85rem;
+    color: dodgerblue;
+    text-decoration: none;
+}

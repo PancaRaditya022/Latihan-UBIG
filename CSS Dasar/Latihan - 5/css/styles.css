@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 20px;
+}
+
+.header-logo img {
+    height: 60px;
+}
+
+.header-title a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.nav {
+    background-color: black;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 10px 20px;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    color: orange;
+}
+
+.konten {
+    padding: 20px;
+}
+
+.konten h1 {
+    margin-bottom: 15px;
+    color: darkolivegreen;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: beige;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+td {
+    background-color: azure;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+tr.genap td {
+    background-color: aliceblue;
+}
+
+.cover {
+    width: 60px;
+    height: 90px;
+    object-fit: cover;
+}
+
+form label {
+    font-size: 0.9rem;
+}
+
+form input[type="text"],
+form textarea {
+    border: 1px solid #999;
+    padding: 5px;
+    width: 250px;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form input[type="submit"] {
+    background-color: darkolivegreen;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: olive;
+}

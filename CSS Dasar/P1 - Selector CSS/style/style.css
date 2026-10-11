@@ -1,0 +1,40 @@
+* { 
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+body { 
+    background-color: black;
+}
+
+.heading, .heading2 {
+    color: blue
+}
+
+.paragraf {
+    color: white;
+}
+
+li.sarapan { 
+    color: whitesmoke;
+}
+
+#gorengan {
+    color: whitesmoke;
+    background-color: blue;
+}
+
+li>b {
+    color: aqua;
+}
+
+li {
+    color: whitesmoke;
+}
+
+h2~p {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

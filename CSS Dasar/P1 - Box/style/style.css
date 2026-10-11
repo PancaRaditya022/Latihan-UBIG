@@ -1,0 +1,40 @@
+.box2 h2 {
+    width: 25%;
+    background-color: bisque;
+}
+
+.box2 p {
+    width: 50%;
+    background-color: coral;
+}
+
+/* ukuran minimum dan maksimum dari box */
+
+td {
+    background-color: cadetblue;
+}
+
+td.deskripsi {
+    min-width: 450px;
+    max-width: 500px;
+    background-color: orange;
+}
+
+/* overflow */
+
+h2, h3 {
+    font-family: Arial;
+    color: dodgerblue;
+}
+
+p.satu {
+    height: 100px;
+    width: 200px;
+    overflow: hidden;
+}
+
+p.dua {
+    height: 100px;
+    width: 200px;
+    overflow: scroll;
+}

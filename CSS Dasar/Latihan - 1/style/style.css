@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  color: #333333;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.container {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #000000;
+  margin-top: 25px;
+  margin-bottom: 12px;
+}
+
+.sub-title {
+  color: #a8792a;
+}
+
+.author-meta {
+  font-size: 1rem;
+  color: #4b5828;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.author-name {
+  color: #8b001a;
+  font-weight: bold;
+}
+
+.content {
+  font-size: 1.05rem;
+  margin-bottom: 15px;
+  color: #222222;
+}
+
+.highlight {
+  color: #5b2c83;
+  font-weight: 600;
+}
