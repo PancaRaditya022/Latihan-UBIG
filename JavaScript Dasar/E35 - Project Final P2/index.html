@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warkop Terbuka</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+    <div class="container mt-4" id="halamanKasir">
+        <h3 class="text-center text-primary fw-bold mb-4">☕ Kasir Warkop Terbuka</h3>
+
+        <div class="row g-3 justify-content-center">
+            <div class="col-md-5">
+                <div class="card">
+                    <div class="card-header bg-primary text-white fw-bold">
+                        Daftar Menu
+                    </div>
+                    <div class="card-body" id="areaMenu"></div>
+                </div>
+            </div>
+
+            <div class="col-md-5">
+                <div class="card">
+                    <div class="card-header bg-success text-white fw-bold">
+                        Daftar Belanja
+                    </div>
+                    <div class="card-body">
+                        <div id="areaKeranjang"></div>
+                        <div class="d-flex justify-content-between align-items-center mt-3 fw-bold">
+                            <span>Total:</span>
+                            <span id="totalHarga" class="text-success">Rp. 0</span>
+                        </div>
+                        <button class="btn btn-success w-100 mt-2" onclick="checkout()">Bayar Sekarang</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container d-flex justify-content-center mt-5 d-none" id="halamanStruk">
+        <div class="card shadow-sm border-0 p-4 w-100" style="max-width: 500px;">
+            <h4 class="text-center text-success fw-bold">✅ Pembayaran Berhasil</h4>
+            <p class="text-center text-muted">Rangkuman Pesanan Anda:</p>
+
+            <div id="areaStruk"></div>
+
+            <div class="d-flex justify-content-between fw-bold border-top pt-2 mt-2">
+                <span>TOTAL BAYAR</span>
+                <span id="totalStruk">Rp. 0</span>
+            </div>
+
+            <button class="btn btn-primary w-100 mt-3" onclick="buatPesananBaru()">Selesaikan & Buat Pesanan Baru</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
