@@ -1,0 +1,170 @@
+body {
+  background-color: #f4f6f8;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #333333;
+}
+
+.container-fluid.max-width-lg {
+  max-width: 960px;
+  padding: 0;
+}
+
+.inbox-card {
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  max-width: 900px;
+  margin: 30px auto;
+  overflow: hidden;
+}
+
+.brand-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  letter-spacing: -0.5px;
+}
+
+.status-text {
+  font-size: 0.9rem;
+  color: #333333;
+  font-weight: 500;
+}
+
+.selection-bar {
+  background-color: #e9ecef;
+  border-top: 1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6;
+  padding: 8px 16px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #212529;
+}
+
+.fs-7 {
+  font-size: 0.8rem;
+}
+
+.email-table {
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+.email-table thead th {
+  background-color: #f8f9fa;
+  color: #212529;
+  font-weight: 700;
+  font-size: 0.9rem;
+  border-bottom: 1px solid #dee2e6;
+  padding: 10px 12px;
+}
+
+.email-table tbody td {
+  padding: 12px;
+  border-bottom: 1px solid #e9ecef;
+  font-size: 0.88rem;
+}
+
+.email-table tbody tr.email-row {
+  cursor: pointer;
+}
+
+.email-table tbody tr.email-row:hover {
+  background-color: #f8f9fa;
+}
+
+.sender-name {
+  font-weight: 400;
+  color: #495057;
+  white-space: nowrap;
+}
+
+.email-subject {
+  font-weight: 400;
+  color: #495057;
+  margin-bottom: 2px;
+  display: block;
+}
+
+.email-preview {
+  color: #6c757d;
+  font-size: 0.82rem;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.email-row.is-unread .sender-name,
+.email-row.is-unread .email-subject {
+  font-weight: 700;
+  color: #111111;
+}
+
+.email-row.is-unread .email-preview {
+  color: #495057;
+}
+
+.email-date {
+  font-weight: 700;
+  color: #212529;
+  white-space: nowrap;
+  font-size: 0.85rem;
+}
+
+.star-icon {
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.star-icon.filled {
+  color: #ffc107;
+}
+
+.star-icon.empty {
+  color: #ced4da;
+}
+
+.priority-tag {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 1px 6px;
+  border-radius: 4px;
+  background-color: #dc3545;
+  color: #ffffff;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+.btn-delete-link {
+  color: #dc3545;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.85rem;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.btn-delete-link:hover {
+  color: #a71d2a;
+  text-decoration: underline;
+}
+
+.form-check-input {
+  cursor: pointer;
+  border-color: #0d6efd;
+}
+
+.form-check-input:checked {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.empty-state td {
+  color: #6c757d;
+  padding: 40px 12px;
+}
