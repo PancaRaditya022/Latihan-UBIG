@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(ls \"/mnt/c/Users/Administrator/Downloads/Latihan-Ubig/Server Side \\(Backend\\)/Laravel-Day1\" && find \"/mnt/c/Users/Administrator/Downloads/Latihan-Ubig\" -iname \"*MODULE*SERVER*\" -o -iname \"*.docx\" | head -20)",
-      "Bash(cd /tmp && rm -rf docx_extract && mkdir docx_extract && cd docx_extract && unzip -o -q \"/mnt/c/Users/Administrator/Downloads/Latihan-Ubig/Server Side \\(Backend\\)/MODULE_SERVER_SIDE.docx\" word/document.xml && python3 -c \"\nimport re\nxml = open\\('word/document.xml', encoding='utf-8'\\).read\\(\\)\n# paragraphs\nparas = re.findall\\(r'<w:p[ >].*?</w:p>', xml, re.S\\)\nout=[]\nfor p in paras:\n    texts = re.findall\\(r'<w:t[^>]*>\\(.*?\\)</w:t>', p, re.S\\)\n    line = ''.join\\(texts\\)\n    out.append\\(line\\)\nprint\\('\\\\n'.join\\(out\\)\\)\n\" > /tmp/module.txt; wc -l /tmp/module.txt)"
-    ]
-  }
-}
