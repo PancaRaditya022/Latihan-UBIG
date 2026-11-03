@@ -1,0 +1,16 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Regional extends Model
+{
+    protected $table = 'regionals';
+
+    protected $fillable = ['province', 'district'];
+
+    public function society() {
+        return $this->hasMany(Society::class, 'regional_id', 'id');
+    }
+}
