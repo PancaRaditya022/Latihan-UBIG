@@ -27,7 +27,7 @@ class ObservatoryController extends Controller
         if (!$observatory) {
             return response()->json([
                 'message' => 'Data tidak ditemukan'
-            ]);
+            ], 404);
         }
 
         $observatory->makeVisible('description');
