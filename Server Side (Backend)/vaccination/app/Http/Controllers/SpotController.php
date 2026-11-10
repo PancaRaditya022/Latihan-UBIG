@@ -58,7 +58,7 @@ class SpotController extends Controller
         $vaccinationsCount = Vaccinations::where('spot_id', $spot->id)
             ->where('date', Carbon::parse($dateParam)->format('Y-m-d'))
             ->count();
-
+  
         return response()->json([
             'date' => $formattedDate,
             'spot' => [

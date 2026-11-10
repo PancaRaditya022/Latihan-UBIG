@@ -20,7 +20,6 @@ class SpotResource extends JsonResource
         foreach ($allVaccines as $vaccine) {
             $status[$vaccine->name] = in_array($vaccine->id, $availableVaccineIds);
         }
-
         return [
             'id' => $this->id,
             'name' => $this->name,
