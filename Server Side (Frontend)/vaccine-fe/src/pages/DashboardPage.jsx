@@ -31,7 +31,6 @@ const DashboardPage = () => {
             if (consulData && consulData.status === 'accepted') {
                 const vaccineRes = await api.get(`/vaccinations?token=${user.token}`);
                 
-                // Menyesuaikan dengan struktur respons API (berupa object first & second atau array)
                 const vacData = vaccineRes.data.vaccinations || vaccineRes.data || {};
                 
                 let first = null;
@@ -134,7 +133,6 @@ const DashboardPage = () => {
 
     const isAccepted = consultation?.status === 'accepted';
     
-    // Memeriksa apakah vaksin pertama sudah selesai atau ada isinya
     const firstFinished = vaccinations.first && (
         vaccinations.first.status === 'vaccinated' || 
         vaccinations.first.status === 'done' || 

@@ -68,7 +68,7 @@ const Navbar = () => {
                                     className="btn btn-link nav-link text-white"
                                     style={{ textDecoration: 'none', cursor: 'pointer' }}
                                     onClick={toLogin}
-                                >
+                                >   
                                     Login
                                 </button>
                             </li>
